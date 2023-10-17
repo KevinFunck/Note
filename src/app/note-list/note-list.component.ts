@@ -17,7 +17,7 @@ export class NoteListComponent {
   }
 
 
-  getList() {
+  getList():Note[] {
     return this.noteService.normalNotes;
   }
 
